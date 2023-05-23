@@ -20,6 +20,7 @@ The `open_file.ps1` script is designed to open the file created by create_file.p
     - In the "Add arguments" field, enter `-ExecutionPolicy Bypass -File "C:\Your\Path\create_file.ps1"`. Replace `"C:\Your\Path\create_file.ps1"` with the actual path to your script.
     - Click "Next", review your settings, then click "Finish".
 4. Save `open_file.ps1` as a `.ps1` file and create a shortcut to it in the Startup folder (which can be found at `C:\Users\[Your User Name]\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`).
+    - If this doesn't work, repeat step 3. above, replacing `create_file.ps1` with `open_file.ps1` in the "Add arguments" field. And instead of selecting "Daily" for the trigger, select "At log on".
 
 ## Notes
 
